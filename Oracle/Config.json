@@ -1,0 +1,24 @@
+{
+    "title": "UCONN SDP",
+    "public_key": 999,
+    "NODE_URL": "ws://0.0.0.0:8545",
+    "mnemonic": "test test test test test test test test test test test junk",
+    "EndpointSchema": {
+        "name": "SCORACLE.BB",
+        "curve": [
+            1,
+            5000,
+            10000
+        ],
+        "broker": "",
+        "md": "Generic basketball oracle that can query boxscores and key statistiscs from a specific game in any of the American pro, semi-pro, and collegiate leagues. More details can be found on the project's Github repository.",
+        "queryList": [
+            {
+                "query": "Basketball Final Boxscore or Final Statistic",
+                "params": ["League", "Date(YYYYMMDD)", "Away Team", "Home Team", "Valid Statistic (Optional)"],
+                "dynamic": false,
+                "responseType": "Array<string>"
+            }
+        ]
+    }
+}
