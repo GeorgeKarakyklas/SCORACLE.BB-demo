@@ -26,4 +26,3 @@ Container will:
 - Valid inputs for optional arguements:
     + Valid Statistic: ```["rebounds", "avgRebounds", "assists", "fieldGoalsAttempted", "fieldGoaldsMade", "fieldGoalPct", "freeThrowPct", "freeThrowsAttempted", "freeThrowsMade", "threePointPct", "threePointFieldGoalsAttempted", "threePointFieldGoalsMade", "avgPoints", "avgAssists", "threePointFieldGoalPct", "points leaders",                "rebounds leaders", "assists leaders"]```
 - Responds with the final boxscore of a game or a comparison of the teams or team leaders within a specified stat category.
-- 
